@@ -7,6 +7,7 @@ def new_line(s):
     return s + u"\n"
 
 def build(string, *steps):
+    
     for step in steps:
         string = step(string)
     return string
